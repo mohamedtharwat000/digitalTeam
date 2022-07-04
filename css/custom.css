@@ -1,0 +1,69 @@
+.first-color {
+  color: #00c6d7;
+}
+
+.bsoh:hover {
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 8px rgb(180, 180, 180);
+}
+
+.team-wrapper {
+  position: relative;
+}
+.team-wrapper .team-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.team-wrapper .team-content {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.team-wrapper:hover .team-image {
+  opacity: 0.3;
+}
+.team-wrapper:hover .team-content {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: #808080;
+}
+
+.overlay:hover {
+  opacity: 0.5;
+}
+
+.card i {
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.2);
+  border-radius: 50%;
+  line-height: 100px;
+  text-align: center;
+  padding: 1rem;
+  opacity: 80%;
+}
+
+footer li {
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.1);
+  color: #808080;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}/*# sourceMappingURL=custom.css.map */
